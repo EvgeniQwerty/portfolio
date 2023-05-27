@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 
-const ProjectListing = ({ project }) => {
+const Project = ({ project }) => {
     const { image, name, description, link, code, tools } = project;
 
     const containerRef = useRef(null);
@@ -79,4 +79,4 @@ const ProjectListing = ({ project }) => {
     );
 };
 
-export default ProjectListing;
+export default Project;

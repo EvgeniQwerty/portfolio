@@ -43,16 +43,16 @@ a
     display: flex
     justify-content: center
     align-items: center
-    padding: 0 8px
+    padding: 0 .6rem
 
     @media (min-width: 768px)
-      padding: 0 16px
+      padding: 0 1.4rem
 
     &:last-child
-      padding: 0 0 0 8px
+      padding: 0 0 0 .6rem
 
       @media (min-width: 768px)
-        padding: 0 16px
+        padding: 0 1.4rem
 
   a
     display: inline-block
@@ -65,10 +65,10 @@ a
       font-size: 1rem
 
   svg
-    font-size: 1.75rem
+    font-size: 2rem
 
 .header-hidden-text
-  clip: rect(1px, 1px, 1px, 1px)
+  clip: rect(.1rem, .1rem, .1rem, .1rem)
   height: 1px
   overflow: hidden
   position: absolute
@@ -84,7 +84,7 @@ a
 
 .main-home
   position: relative
-  min-height: 100vh // fallback height definition
+  min-height: 100vh
   min-height: calc(var(--vh, 1vh) * 100)
   display: flex
   flex-direction: column
@@ -111,12 +111,16 @@ a
 .title
   font-size: 2rem
   margin-right: 1rem
+
+  @media (min-width: 450px)
+    font-size: 3rem
+
   @media (min-width: 768px)
     font-size: 4rem
     justify-content: center
 
   @media (min-width: 1024px)
-    font-size: 5rem
+    font-size: 4rem
 
   @media (min-width: 1280px)
     font-size: 6rem
@@ -126,40 +130,37 @@ a
     font-size: 8rem
     margin-right: 8rem
 
-  @media (max-height: 800px)
-    font-size: 4rem
-
-.playful
-  transition: all 0.4s cubic-bezier(0.15, 0.75, 0.45, 0.95) 0s
+.rainbow-text
+  transition: all .4s cubic-bezier(.15, .75, .45, .95) 0s
   animation: 10s ease 0s infinite alternate none running rainbow
 
 .my-image
-  width: 100px
+  width: 6rem
   border-radius: 100%
   border: .5rem solid white
 
+  @media (min-width: 450px)
+    width: 8rem
+
   @media (min-width: 768px)
-    width: 200px
+    width: 16rem
 
   @media (min-width: 1280px)
-    width: 300px
-
-  @media (max-height: 800px)
-    width: 200px
+    width: 20rem
 
 .job-title
-  font-size: 0.9rem
+  font-size: 1rem
   font-weight: 400
 
   @media (min-width: 768px)
-    font-size: 1.2rem
+    font-size: 1.4rem
 
   @media (min-width: 1536px)
-    font-size: 1.4rem
+    font-size: 1.6rem
 
 .scroll-indicator-container
   position: absolute
-  top: 80%
+  top: 90%
   left: 50%
   transform: translate(-50%, -80%)
 
@@ -177,12 +178,12 @@ a
   flex-direction: column
   justify-content: center
   align-items: center
-  font-size: 0.875rem
+  font-size: 1rem
   font-weight: 700
   font-family: $font
 
   span
-    margin: 0.5rem 0
+    margin: .5rem 0
 
     &:focus
       outline: none
@@ -234,17 +235,17 @@ a
   width: 75%
   text-align: left
   color: $white
-  margin: 0 32px
+  margin: 0 2rem
 
   @media (min-width: 768px)
-    width: 300px
+    width: 18rem
 
   h2
     font-size: 1.5rem
     margin: 0
 
     &:hover
-      transition: all 0.4s cubic-bezier(0.15, 0.75, 0.45, 0.95) 0s
+      transition: all .4s cubic-bezier(.15, .75, .45, .95) 0s
       animation: 10s ease 0s infinite alternate none running rainbow
 
     @media (min-width: 768px)
@@ -255,41 +256,39 @@ a
 
   h3
     font-size: 1rem
-    margin-top: 24px
+    margin-top: 1.8rem
     margin-bottom: 0
 
     @media (min-width: 768px)
-      font-size: 1.25rem
+      font-size: 1.4rem
 
   p
-    margin: 1rem 0 0.5rem 0
-    line-height: 20px
-    font-size: 0.875rem
+    margin: 1rem 0 .5rem 0
+    line-height: 1.6rem
+    font-size: 1rem
     font-weight: 300
 
     @media (min-width: 768px)
       font-size: 1rem
-      line-height: 24px
+      line-height: 2rem
 
     @media (max-height: 800px)
       font-size: 0.875rem
-      line-height: 20px
+      line-height: 2rem
 
 .tools-list
   columns: 2
   padding-left: 1.5rem
-  line-height: 20px
-  margin-top: 8px
-  margin-bottom: 16px
+  line-height: 1.6rem
+  margin-top: 1rem
+  margin-bottom: 1rem
   font-family: $font
 
   @media (min-width: 768px)
-    margin-bottom: 24px
+    margin-bottom: 1.4rem
 
   li
-    font-size: 0.875rem
-    @media (max-height: 750px)
-      font-size: 0.875rem
+    font-size: 1rem
 
     a
       display: block
@@ -312,18 +311,15 @@ a
   padding: 0
   cursor: pointer
   width: 100%
-  height: 50px
-  border-radius: 15px
+  height: 3.2rem
+  border-radius: 1rem
   border: none
   outline: none
   color: $black
   background: snow
   font-weight: 700
   font-family: $font
-  font-size: 0.875rem
-
-  @media (min-width: 768px)
-    font-size: 1rem
+  font-size: 1rem
 
   a
     display: block
@@ -339,22 +335,22 @@ a
   margin: 0 auto 1rem auto
   object-fit: cover
   object-position: center
-  border-radius: 20px
-  transition: box-shadow 0.3s ease
-  box-shadow: 0 2.8px 2.2px rgba(211, 211, 211, 0.02)
+  border-radius: 1.2rem
+  transition: box-shadow .3s ease
+  box-shadow: 0 .2rem .2rem rgba(211, 211, 211, 0.02)
 
   &:hover
-    box-shadow: 0 2.8px 2.2px rgba(256, 256, 256, 0.02)
+    box-shadow: 0 .2rem .2rem rgba(256, 256, 256, 0.02)
 
   @media (min-width: 768px)
-    width: 400px
+    width: 25rem
 
   @media (min-width: 1024px)
-    width: 500px
+    width: 32rem
     margin: 0 2rem
 
   @media (min-width: 1280px)
-    width: 700px
+    width: 44rem
 
 footer
   height: 100vh
@@ -366,9 +362,13 @@ footer
 
   h2
     color: $white
-    font-size: 2.5rem
+    font-size: 3rem
+
     @media (min-width: 768px)
-      font-size: 4rem
+      font-size: 3.5rem
+
+    @media (max-width: 450px)
+      font-size: 2rem
 
 .footer-links
   display: flex
@@ -379,9 +379,10 @@ footer
   list-style-type: none
 
   li
-    padding: 0 16px
+    padding: 0 1rem
+
     @media (min-width: 768px)
-      padding: 0 32px
+      padding: 0 2rem
 
   a
     display: inline-block
@@ -399,18 +400,61 @@ footer
       font-size: 2rem
 
 .footer-hidden-text
-  clip: rect(1px, 1px, 1px, 1px)
-  height: 1px
+  clip: rect(.1rem, .1rem, .1rem, .1rem)
+  height: .1rem
   overflow: hidden
   position: absolute
   white-space: nowrap
-  width: 1px
+  width: .1rem
   &:focus
     clip: auto
     height: auto
     overflow: auto
     position: absolute
     width: auto
+
+.certs
+  padding-top: 2rem
+  position: relative
+  min-height: 100vh
+  min-width: 100vw
+  overflow: auto
+  -webkit-overflow-scrolling: touch
+  display: flex
+  justify-content: center
+  align-items: center
+
+.certs-container
+  display: grid
+  justify-content: center
+  //align-items: center
+  grid-gap: 2rem
+  width: 75%
+  grid-template-columns: repeat(auto-fill, 16rem)
+
+.cert
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+
+  a
+    display: block
+    flex-grow: 1
+    img
+      aspect-ratio: 1 / 1
+      object-fit: cover
+      object-position: center
+      border-radius: 1.2rem
+      transition: box-shadow .3s ease
+      width: 16rem
+
+  p
+    font-size: 1.4rem
+    text-align: center
+    font-family: $font
+    color: $white
+    justify-self: flex-start
 
 // Rainbow text
 @keyframes rainbow
