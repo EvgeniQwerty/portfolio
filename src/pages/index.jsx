@@ -30,39 +30,39 @@ export default function Homepage({ project }) {
             />
 
             <Header />
-            <main className='main-home'>
-                <div className='cta'>
-                    <h1 className='title'>
-                        <span className='playful'>Hello!</span> My name is
-                        Eugene Petukhov
-                    </h1>
-                    <motion.img
-                        src={MyImg}
-                        alt='Eugene'
-                        className='my-image'
-                        whileHover={{ scale: 1.1 }}
-                        transition={{
-                            type: 'spring',
-                            stiffness: 400,
-                            damping: 10,
-                        }}
-                    />
-                </div>
-                <p className='job-title'>
-                    <span className='text-reveal'>
-                        I am a React Frontend Developer
-                    </span>
-                </p>
-                <div className='scroll-indicator-container'>
-                    <button
-                        className='scroll-indicator'
-                        onClick={executeScroll}
-                    >
-                        <span>Some Projects</span>
-                        <FaChevronDown />
-                    </button>
-                </div>
-            </main>
+                <main className='main-home'>
+                    <div className='cta'>
+                        <h1 className='title'>
+                            <span className='playful'>Hello!</span> My name is
+                            Eugene Petukhov
+                        </h1>
+                        <motion.img
+                            src={MyImg}
+                            alt='Eugene'
+                            className='my-image'
+                            whileHover={{ scale: 1.1 }}
+                            transition={{
+                                type: 'spring',
+                                stiffness: 400,
+                                damping: 10,
+                            }}
+                        />
+                    </div>
+                    <p className='job-title'>
+                        <span className='text-reveal'>
+                            I am a React Frontend Developer
+                        </span>
+                    </p>
+                    <div className='scroll-indicator-container'>
+                        <button
+                            className='scroll-indicator'
+                            onClick={executeScroll}
+                        >
+                            <span>Some Projects</span>
+                            <FaChevronDown />
+                        </button>
+                    </div>
+                </main>
             <div className='project-container' ref={projectsRef}>
                 {projectsList.map((project, i) => (
                     <ProjectListing key={i} project={project} />

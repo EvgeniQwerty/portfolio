@@ -13,7 +13,7 @@ import GuitarTeacher from '../images/guitar_teacher.jpg';
 
 export const projectsList = [
     {
-        name: 'BAZA Productrion company',
+        name: 'BAZA Production company',
         description: 'A portfolio site for the video/photo production company',
         image: ProdComp,
         link: 'https://evgeniqwerty.github.io/production-company',

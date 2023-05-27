@@ -1,12 +1,34 @@
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import { useRef } from 'react';
 
 const ProjectListing = ({ project }) => {
     const { image, name, description, link, code, tools } = project;
 
+    const containerRef = useRef(null);
+
+    const { scrollYProgress } = useScroll({
+        target: containerRef,
+        offset: ['start end', 'end end'],
+    });
+
+    const imageValue = useTransform(scrollYProgress, [0, 1], ['100%', '0%']);
+    const bottomShadowValue = useTransform(
+        scrollYProgress,
+        [0, 1],
+        ['100%', '0%']
+    );
+
     return (
-        <div className='project'>
-            <div className='project-container'>
-                <img src={image} alt={name} className='project-image' />
+        <div className='project' ref={containerRef}>
+            <div className='project-cont'>
+                <div className='project-img'>
+                    <motion.img
+                        src={image}
+                        alt={name}
+                        className='project-image'
+                        style={{ translateX: imageValue }}
+                    />
+                </div>
                 <div className='project-info'>
                     <h2>{name}</h2>
                     {description.split('\n').map((str, index) => (
@@ -48,6 +70,11 @@ const ProjectListing = ({ project }) => {
                     </motion.div>
                 </div>
             </div>
+
+            <motion.div
+                className='bottom-shadow'
+                style={{ translateX: bottomShadowValue }}
+            />
         </div>
     );
 };
