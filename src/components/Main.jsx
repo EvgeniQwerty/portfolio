@@ -2,7 +2,12 @@ import { motion } from 'framer-motion';
 import { FaChevronDown } from 'react-icons/fa';
 import MyImg from '../images/my_img.jpg';
 
-const Main = ({ ref }) => {
+const scrollElement = () => {
+    const element = document.getElementById('pc');
+    element.scrollIntoView();
+};
+
+const Main = () => {
     return (
         <main className='main-home'>
             <div className='cta'>
@@ -28,7 +33,7 @@ const Main = ({ ref }) => {
                 </span>
             </p>
             <div className='scroll-indicator-container'>
-                <button className='scroll-indicator'>
+                <button className='scroll-indicator' onClick={scrollElement}>
                     <span>Some Projects</span>
                     <FaChevronDown />
                 </button>
