@@ -1,4 +1,4 @@
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 
 const Project = ({ project }) => {
@@ -11,7 +11,9 @@ const Project = ({ project }) => {
         offset: ['start end', 'end end'],
     });
 
-    const imageValue = useTransform(scrollYProgress, [0, 1], ['100%', '0%']);
+    const springY = useSpring(scrollYProgress);
+
+    const imageValue = useTransform(springY, [0, 0.9], ['100%', '0%']);
     const bottomShadowValue = useTransform(
         scrollYProgress,
         [0, 1],
@@ -29,6 +31,7 @@ const Project = ({ project }) => {
                         style={{ translateX: imageValue }}
                     />
                 </div>
+
                 <div className='project-info'>
                     <h2>{name}</h2>
                     {description.split('\n').map((str, index) => (

@@ -1,4 +1,4 @@
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 
 const Cert = ({ certData }) => {
@@ -11,7 +11,9 @@ const Cert = ({ certData }) => {
         offset: ['start end', 'end end'],
     });
 
-    const imageValue = useTransform(scrollYProgress, [0, 1], ['-100%', '0%']);
+    const springY = useSpring(scrollYProgress);
+
+    const imageValue = useTransform(springY, [0, 1], ['-100%', '0%']);
 
     return (
         <motion.div
