@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b077354d.css",
-    "main.js": "/portfolio/static/js/main.a9355e72.js",
+    "main.css": "/portfolio/static/css/main.7f7115d6.css",
+    "main.js": "/portfolio/static/js/main.a6d6fc81.js",
     "static/media/ip_tracker.jpg": "/portfolio/static/media/ip_tracker.a1454c3bc5d2625df8a7.jpg",
     "static/media/react_movies.jpg": "/portfolio/static/media/react_movies.2ae70e4ea878dafb31ba.jpg",
     "static/media/react_recipe.jpg": "/portfolio/static/media/react_recipe.bca9380f9fa2c725b559.jpg",
@@ -24,11 +24,11 @@
     "static/media/html_css.jpg": "/portfolio/static/media/html_css.108098d103fad2aedd5f.jpg",
     "static/media/redux_job.jpg": "/portfolio/static/media/redux_job.3499a14604e72d6b765f.jpg",
     "index.html": "/portfolio/index.html",
-    "main.b077354d.css.map": "/portfolio/static/css/main.b077354d.css.map",
-    "main.a9355e72.js.map": "/portfolio/static/js/main.a9355e72.js.map"
+    "main.7f7115d6.css.map": "/portfolio/static/css/main.7f7115d6.css.map",
+    "main.a6d6fc81.js.map": "/portfolio/static/js/main.a6d6fc81.js.map"
   },
   "entrypoints": [
-    "static/css/main.b077354d.css",
-    "static/js/main.a9355e72.js"
+    "static/css/main.7f7115d6.css",
+    "static/js/main.a6d6fc81.js"
   ]
 }
