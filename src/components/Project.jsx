@@ -14,6 +14,7 @@ const Project = ({ project }) => {
     const springY = useSpring(scrollYProgress);
 
     const imageValue = useTransform(springY, [0, 0.9], ['100%', '0%']);
+    const textValue = useTransform(springY, [0, 0.9], ['0', '1']);
     const bottomShadowValue = useTransform(
         scrollYProgress,
         [0, 1],
@@ -32,7 +33,10 @@ const Project = ({ project }) => {
                     />
                 </div>
 
-                <div className='project-info'>
+                <motion.div
+                    className='project-info'
+                    style={{ opacity: textValue }}
+                >
                     <h2>{name}</h2>
                     {description.split('\n').map((str, index) => (
                         <p key={index}>{str}</p>
@@ -71,7 +75,7 @@ const Project = ({ project }) => {
                             </motion.a>
                         )}
                     </motion.div>
-                </div>
+                </motion.div>
             </div>
 
             <motion.div
