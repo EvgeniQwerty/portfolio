@@ -4,7 +4,7 @@ import { FaGithub, FaTelegram } from 'react-icons/fa';
 const Footer = () => {
     return (
         <footer>
-            <h2 class='rainbow-text'>Connect with me</h2>
+            <h2 class='rainbow-text'>Связаться со мной</h2>
             <ul className='footer-links'>
                 <li>
                     <motion.a
@@ -13,7 +13,7 @@ const Footer = () => {
                         rel='noopener noreferrer'
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
-                        title='Download resume'
+                        title='Скачать резюме'
                     >
                         Resume
                     </motion.a>

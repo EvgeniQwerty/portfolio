@@ -12,8 +12,8 @@ const Main = () => {
         <main className='main-home'>
             <div className='cta'>
                 <h1 className='title'>
-                    <span className='rainbow-text'>Hello!</span> My name is
-                    Eugene Petukhov
+                    <span className='rainbow-text'>Привет!</span> Меня зовут
+                    Евгений Петухов
                 </h1>
                 <motion.img
                     src={MyImg}
@@ -28,13 +28,11 @@ const Main = () => {
                 />
             </div>
             <p className='job-title'>
-                <span className='text-reveal'>
-                    I am a React Frontend Developer
-                </span>
+                <span className='text-reveal'>Я React Frontend Developer</span>
             </p>
             <div className='scroll-indicator-container'>
                 <button className='scroll-indicator' onClick={scrollElement}>
-                    <span>Some Projects</span>
+                    <span>Проекты</span>
                     <FaChevronDown />
                 </button>
             </div>

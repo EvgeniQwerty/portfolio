@@ -13,8 +13,8 @@ import GuitarTeacher from '../images/guitar_teacher.jpg';
 
 export const projectsList = [
     {
-        name: 'BAZA Production company',
-        description: 'A portfolio site for the video/photo production company',
+        name: 'BAZA Видео/фото-продакшн',
+        description: 'Сайт-портфолио для видео/фото-продашкна',
         image: ProdComp,
         link: 'https://evgeniqwerty.github.io/production-company',
         code: 'https://github.com/evgeniqwerty/production_company',
@@ -23,7 +23,7 @@ export const projectsList = [
     {
         name: 'Streams Guesser',
         description:
-            'Youtube API based SPA game in which you need to guess, which of two videoclips has more views',
+            'SPA приложение-игра, простроенная на базе Youtube API, цель которой - правильно выбрать клип с большим количеством просмотров',
         image: StreamsGuesser,
         link: 'https://evgeniqwerty.github.io/streams-guesser',
         code: 'https://github.com/evgeniqwerty/streams-guesser',
@@ -32,7 +32,7 @@ export const projectsList = [
     {
         name: 'Redux Countries',
         description:
-            'SPA with information about flags and countries. Have build-in search and filters',
+            'SPA приложение про флаги и страны. Имеются встроенные фильтры по континенту и стране',
         image: ReduxCountries,
         link: 'https://evgeniqwerty.github.io/redux-countries',
         code: 'https://github.com/evgeniqwerty/redux-countries',
@@ -40,7 +40,8 @@ export const projectsList = [
     },
     {
         name: 'Redux Job',
-        description: 'Small app for filtering job positions using redux stores',
+        description:
+            'Небольшое приложение, показывающее работу фильтров при работе с Redux',
         image: ReduxJob,
         link: 'https://evgeniqwerty.github.io/redux-job',
         code: 'https://github.com/evgeniqwerty/redux-job',
@@ -48,7 +49,8 @@ export const projectsList = [
     },
     {
         name: 'React Recipe',
-        description: 'SPA with food recipes',
+        description:
+            'SPA приложение с рецептами еды. Использовано TheMealDB API для получения рецептов',
         image: ReactRecipe,
         link: 'https://evgeniqwerty.github.io/react-recipe',
         code: 'https://github.com/evgeniqwerty/react-recipe',
@@ -56,7 +58,7 @@ export const projectsList = [
     },
     {
         name: 'React Shop',
-        description: 'App with shop functions',
+        description: 'Приложение-магазин с функционирующей корзиной',
         image: ReactShop,
         link: 'https://evgeniqwerty.github.io/react-shop',
         code: 'https://github.com/evgeniqwerty/react-shop',
@@ -65,7 +67,7 @@ export const projectsList = [
     {
         name: 'React Movies',
         description:
-            'App in which you can search movies and read data about it',
+            'Приложение, в котором можно найти фильмы через поиск и почитать про них информацию. Использовано OMDB API для получения данных о фильмах',
         image: ReactMovies,
         link: 'https://evgeniqwerty.github.io/react-movies',
         code: 'https://github.com/evgeniqwerty/react-movies',
@@ -73,7 +75,8 @@ export const projectsList = [
     },
     {
         name: 'IP Tracker',
-        description: 'App that shows location of ip address on the map',
+        description:
+            'Приложение показывает местонахождение пользователя по IP адресу. Использовано Ipify API для получения данных об IP',
         image: IPTracker,
         link: 'https://evgeniqwerty.github.io/ip-tracker',
         code: 'https://github.com/evgeniqwerty/ip-tracker',
@@ -81,7 +84,8 @@ export const projectsList = [
     },
     {
         name: 'TODO List',
-        description: 'TODO app with post/get/delete/put requests',
+        description:
+            'TODO приложение с post/get/delete/put реквестами. Использовано JSONplaceholder API для работы c БД',
         image: TODOList,
         link: 'https://evgeniqwerty.github.io/todo-list',
         code: 'https://github.com/evgeniqwerty/todo-list',
@@ -89,7 +93,7 @@ export const projectsList = [
     },
     {
         name: 'Gamer station',
-        description: 'Layout for gamer station company. Made with grid',
+        description: 'Лендинг для компьютерного клуба. Сделано с помощью Grid',
         image: GamerStation,
         link: 'https://evgeniqwerty.github.io/gamer-station',
         code: 'https://github.com/evgeniqwerty/gamer-station',
@@ -97,7 +101,8 @@ export const projectsList = [
     },
     {
         name: 'Balloon tours',
-        description: 'Layout for balloon tours company. Made with flex',
+        description:
+            'Лендинг для компании по организации полётов на шарах. Сделано с помощью Flex',
         image: BalloonTours,
         link: 'https://evgeniqwerty.github.io/balloon-tours',
         code: 'https://github.com/evgeniqwerty/balloon-tours',
@@ -105,7 +110,7 @@ export const projectsList = [
     },
     {
         name: 'Guitar Teacher',
-        description: 'Layout for guitar teacher. Made with flex',
+        description: 'Лендинг для учителя по гитаре. Сделано с помощью Flex',
         image: GuitarTeacher,
         link: 'https://evgeniqwerty.github.io/guitar-teacher',
         code: 'https://github.com/evgeniqwerty/guitar-teacher',

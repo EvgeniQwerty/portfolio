@@ -1,6 +1,6 @@
 const SEO = ({ title, url, description }) => {
     return (
-        <header>
+        <div>
             <meta
                 name='viewport'
                 content='width=device-width, initial-scale=1'
@@ -10,10 +10,10 @@ const SEO = ({ title, url, description }) => {
             <meta property='og:site_name' content={title} />
             <meta property='og:url' content={url} />
             <meta property='og:type' content='website' />
-            <meta property='og:locale' content='en' />
+            <meta property='og:locale' content='ru' />
             <title>{title}</title>
             <link rel='icon' href='/favicon.ico' />
-        </header>
+        </div>
     );
 };
 

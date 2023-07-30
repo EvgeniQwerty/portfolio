@@ -26,9 +26,9 @@ export default function Homepage() {
             }}
         >
             <SEO
-                title='Eugene Petukhov | React Frontend Developer'
+                title='Евгений Петухов | React Frontend Developer'
                 url='https://github.com/evgeniqwerty'
-                description='Eugene Petukhov, React Frontend Developer. Studied at VyatSU. Skilled with React, Redux, JavaScript, Python, SASS and many more'
+                description='Евгений Петухов, React Frontend Developer. Учился в ВятГУ. Стек: JavaScript (React, Redux, framer-motion, SASS), Python и др.'
             />
 
             <Header />

@@ -41,7 +41,7 @@ const Project = ({ project }) => {
                     {description.split('\n').map((str, index) => (
                         <p key={index}>{str}</p>
                     ))}
-                    <h3>Tools used:</h3>
+                    <h3>Использованные технологии:</h3>
                     <ul className='tools-list'>
                         {tools.map((item, index) => (
                             <li key={index}>{item}</li>
@@ -58,7 +58,7 @@ const Project = ({ project }) => {
                                 title={`Open site of ${name}`}
                                 className='project-btn'
                             >
-                                Open Site
+                                Открыть сайт
                             </motion.a>
                         )}
                         {code && (
@@ -71,7 +71,7 @@ const Project = ({ project }) => {
                                 title={`View Code for ${name}`}
                                 className='project-btn'
                             >
-                                View Code
+                                Открыть код
                             </motion.a>
                         )}
                     </motion.div>

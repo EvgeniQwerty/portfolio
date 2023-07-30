@@ -14,7 +14,7 @@ const Header = () => {
                                 rel='noopener noreferrer'
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.9 }}
-                                title='Download my resume'
+                                title='Скачать резюме'
                             >
                                 Resume
                             </motion.a>
@@ -26,7 +26,7 @@ const Header = () => {
                                 rel='noopener noreferrer'
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                title='Go to GitHub'
+                                title='GitHub'
                             >
                                 <FaGithub />
                                 <span className='header-hidden-text'>
@@ -41,7 +41,7 @@ const Header = () => {
                                 rel='noopener noreferrer'
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                title='Write me on Telegram'
+                                title='Telegram'
                             >
                                 <FaTelegram />
                                 <span className='header-hidden-text'>
