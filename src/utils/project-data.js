@@ -17,7 +17,7 @@ export const projectsList = [
         description: 'Сайт-портфолио для видео/фото-продашкна',
         image: ProdComp,
         link: 'https://evgeniqwerty.github.io/production-company',
-        code: 'https://github.com/evgeniqwerty/production_company',
+        code: 'https://github.com/evgeniqwerty/production-company',
         tools: ['Vanilla JS', 'SASS'],
     },
     {
