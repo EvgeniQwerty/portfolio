@@ -8,12 +8,12 @@ const Footer = () => {
             <ul className='footer-links'>
                 <li>
                     <motion.a
-                        href=''
+                        href='https://hh.ru/resume/610c66baff0c3a2c8b0039ed1f4a3741753842'
                         target='_blank'
                         rel='noopener noreferrer'
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
-                        title='Скачать резюме'
+                        title='Резюме на hh.ru'
                     >
                         Resume
                     </motion.a>
@@ -25,7 +25,7 @@ const Footer = () => {
                         rel='noopener noreferrer'
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        title='Go to GitHub'
+                        title='GitHub'
                     >
                         <FaGithub />
                         <span className='footer-hidden-text'>GitHub</span>
@@ -38,7 +38,7 @@ const Footer = () => {
                         rel='noopener noreferrer'
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        title='Write me on Telegram'
+                        title='Telegram'
                     >
                         <FaTelegram />
                         <span className='footer-hidden-text'>Telegram</span>

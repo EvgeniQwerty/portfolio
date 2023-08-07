@@ -9,14 +9,14 @@ const Header = () => {
                     <ul className='nav-list'>
                         <li>
                             <motion.a
-                                href=''
+                                href='https://hh.ru/resume/610c66baff0c3a2c8b0039ed1f4a3741753842'
                                 target='_blank'
                                 rel='noopener noreferrer'
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.9 }}
-                                title='Скачать резюме'
+                                title='Резюме на hh.ru'
                             >
-                                Resume
+                                Резюме
                             </motion.a>
                         </li>
                         <li>
