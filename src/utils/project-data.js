@@ -11,7 +11,7 @@ import TODOList from '../images/todo_list.jpg';
 
 export const projectsList = [
     {
-        name: 'BAZA Видео/фото-продакшн (v2)',
+        name: 'BAZA Видео-продакшн (v2)',
         description: 'Сайт-портфолио для видео-продашкна',
         image: BazaProd,
         link: 'baza-prod.vercel.app',
