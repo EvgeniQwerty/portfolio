@@ -8,14 +8,11 @@ import ReactShop from '../images/react_shop.jpg';
 import ReactMovies from '../images/react_movies.jpg';
 import IPTracker from '../images/ip_tracker.jpg';
 import TODOList from '../images/todo_list.jpg';
-import GamerStation from '../images/gamer_station.jpg';
-import BalloonTours from '../images/balloon_tours.jpg';
-import GuitarTeacher from '../images/guitar_teacher.jpg';
 
 export const projectsList = [
     {
         name: 'BAZA Видео-продакшн (v2)',
-        description: 'Сайт-портфолио для видео/фото-продашкна',
+        description: 'Сайт-портфолио для видео-продашкна',
         image: BazaProd,
         link: 'https://baza-prod.vercel.app',
         code: 'https://github.com/evgeniqwerty/baza-prod',
@@ -99,30 +96,5 @@ export const projectsList = [
         link: 'https://evgeniqwerty.github.io/todo-list',
         code: 'https://github.com/evgeniqwerty/todo-list',
         tools: ['Vanilla JS', 'API'],
-    },
-    {
-        name: 'Gamer station',
-        description: 'Лендинг для компьютерного клуба. Сделано с помощью Grid',
-        image: GamerStation,
-        link: 'https://evgeniqwerty.github.io/gamer-station',
-        code: 'https://github.com/evgeniqwerty/gamer-station',
-        tools: ['HTML', 'SASS'],
-    },
-    {
-        name: 'Balloon tours',
-        description:
-            'Лендинг для компании по организации полётов на шарах. Сделано с помощью Flex',
-        image: BalloonTours,
-        link: 'https://evgeniqwerty.github.io/balloon-tours',
-        code: 'https://github.com/evgeniqwerty/balloon-tours',
-        tools: ['HTML', 'SASS'],
-    },
-    {
-        name: 'Guitar Teacher',
-        description: 'Лендинг для учителя по гитаре. Сделано с помощью Flex',
-        image: GuitarTeacher,
-        link: 'https://evgeniqwerty.github.io/guitar-teacher',
-        code: 'https://github.com/evgeniqwerty/guitar-teacher',
-        tools: ['HTML', 'SASS'],
-    },
+    }
 ];
