@@ -1,3 +1,4 @@
+import BazaProd from '../images/baza_prod.jpg';
 import ProdComp from '../images/production_company.jpg';
 import StreamsGuesser from '../images/streams_guesser.jpg';
 import ReduxCountries from '../images/redux_countries.jpg';
@@ -12,6 +13,14 @@ import BalloonTours from '../images/balloon_tours.jpg';
 import GuitarTeacher from '../images/guitar_teacher.jpg';
 
 export const projectsList = [
+    {
+        name: 'BAZA Видео-продакшн (v2)',
+        description: 'Сайт-портфолио для видео/фото-продашкна',
+        image: BazaProd,
+        link: 'https://baza-prod.vercel.app',
+        code: 'https://github.com/evgeniqwerty/baza-prod',
+        tools: ['Next.js'],
+    },
     {
         name: 'BAZA Видео/фото-продакшн',
         description: 'Сайт-портфолио для видео/фото-продашкна',

@@ -28,7 +28,7 @@ export default function Homepage() {
             <SEO
                 title='Евгений Петухов | React Frontend Developer'
                 url='https://github.com/evgeniqwerty'
-                description='Евгений Петухов, React Frontend Developer. Учился в ВятГУ. Стек: JavaScript (React, Redux, framer-motion, SASS), Python и др.'
+                description='Евгений Петухов, React Frontend Developer. Учился в ВятГУ. Стек: JavaScript, TypeScript, React, Redux, Next.js, Python и др.'
             />
 
             <Header />
