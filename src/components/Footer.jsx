@@ -15,7 +15,7 @@ const Footer = () => {
                         whileTap={{ scale: 0.9 }}
                         title='Резюме на hh.ru'
                     >
-                        Resume
+                        Резюме
                     </motion.a>
                 </li>
                 <li>
