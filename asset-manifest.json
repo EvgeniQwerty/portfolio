@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7f7115d6.css",
-    "main.js": "/portfolio/static/js/main.ef601db6.js",
+    "main.css": "/portfolio/static/css/main.38a2d618.css",
+    "main.js": "/portfolio/static/js/main.c6a05bd7.js",
     "static/media/ip_tracker.jpg": "/portfolio/static/media/ip_tracker.a1454c3bc5d2625df8a7.jpg",
     "static/media/react_movies.jpg": "/portfolio/static/media/react_movies.2ae70e4ea878dafb31ba.jpg",
     "static/media/react_recipe.jpg": "/portfolio/static/media/react_recipe.bca9380f9fa2c725b559.jpg",
@@ -23,12 +23,13 @@
     "static/media/react_shop.jpg": "/portfolio/static/media/react_shop.b57db6c569f5f50815ea.jpg",
     "static/media/html_css.jpg": "/portfolio/static/media/html_css.108098d103fad2aedd5f.jpg",
     "static/media/redux_job.jpg": "/portfolio/static/media/redux_job.3499a14604e72d6b765f.jpg",
+    "static/media/baza_prod.jpg": "/portfolio/static/media/baza_prod.cc97a2497207371e60d8.jpg",
     "index.html": "/portfolio/index.html",
-    "main.7f7115d6.css.map": "/portfolio/static/css/main.7f7115d6.css.map",
-    "main.ef601db6.js.map": "/portfolio/static/js/main.ef601db6.js.map"
+    "main.38a2d618.css.map": "/portfolio/static/css/main.38a2d618.css.map",
+    "main.c6a05bd7.js.map": "/portfolio/static/js/main.c6a05bd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f7115d6.css",
-    "static/js/main.ef601db6.js"
+    "static/css/main.38a2d618.css",
+    "static/js/main.c6a05bd7.js"
   ]
 }
