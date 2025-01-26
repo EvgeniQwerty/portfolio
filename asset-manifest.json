@@ -1,16 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.38a2d618.css",
-    "main.js": "/portfolio/static/js/main.c6a05bd7.js",
+    "main.js": "/portfolio/static/js/main.23ddd51d.js",
     "static/media/ip_tracker.jpg": "/portfolio/static/media/ip_tracker.a1454c3bc5d2625df8a7.jpg",
     "static/media/react_movies.jpg": "/portfolio/static/media/react_movies.2ae70e4ea878dafb31ba.jpg",
     "static/media/react_recipe.jpg": "/portfolio/static/media/react_recipe.bca9380f9fa2c725b559.jpg",
-    "static/media/balloon_tours.jpg": "/portfolio/static/media/balloon_tours.019a16b546f24da1e04c.jpg",
-    "static/media/gamer_station.jpg": "/portfolio/static/media/gamer_station.d2913548bdeefd084617.jpg",
     "static/media/redux_countries.jpg": "/portfolio/static/media/redux_countries.34dd4e7d5dffb4c7d1a6.jpg",
     "static/media/my_img.jpg": "/portfolio/static/media/my_img.4b81e54fb785127d74da.jpg",
     "static/media/streams_guesser.jpg": "/portfolio/static/media/streams_guesser.2a9bc4c1b84f3274c048.jpg",
-    "static/media/guitar_teacher.jpg": "/portfolio/static/media/guitar_teacher.5dc99ed8f265653c5578.jpg",
     "static/media/todo_list.jpg": "/portfolio/static/media/todo_list.98912592cd4543060d5b.jpg",
     "static/media/production_company.jpg": "/portfolio/static/media/production_company.0379484c920b02cb9f60.jpg",
     "static/media/web2.jpg": "/portfolio/static/media/web2.e75b7102cbd11a8d175d.jpg",
@@ -26,10 +23,10 @@
     "static/media/baza_prod.jpg": "/portfolio/static/media/baza_prod.cc97a2497207371e60d8.jpg",
     "index.html": "/portfolio/index.html",
     "main.38a2d618.css.map": "/portfolio/static/css/main.38a2d618.css.map",
-    "main.c6a05bd7.js.map": "/portfolio/static/js/main.c6a05bd7.js.map"
+    "main.23ddd51d.js.map": "/portfolio/static/js/main.23ddd51d.js.map"
   },
   "entrypoints": [
     "static/css/main.38a2d618.css",
-    "static/js/main.c6a05bd7.js"
+    "static/js/main.23ddd51d.js"
   ]
 }
