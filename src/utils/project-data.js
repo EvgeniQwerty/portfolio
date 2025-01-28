@@ -16,11 +16,11 @@ export const projectsList = [
         image: BazaProd,
         link: 'https://baza-prod.vercel.app',
         code: 'https://github.com/evgeniqwerty/baza-prod',
-        tools: ['Next.js'],
+        tools: ['Next.js', 'TypeScript'],
     },
     {
         name: 'BAZA Видео/фото-продакшн',
-        description: 'Сайт-портфолио для видео/фото-продашкна',
+        description: 'Лендинг для видео/фото-продашкна',
         image: ProdComp,
         link: 'https://evgeniqwerty.github.io/production-company',
         code: 'https://github.com/evgeniqwerty/production-company',
